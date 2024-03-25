@@ -17,7 +17,7 @@
     "require": {
         "php": ">=7.0",
         "laravel/framework": ">=5.5.33",
-        "pragmarx/yaml": "^1.0",
+        "anysystems/yaml": "^1.0",
         "symfony/process": "^3.3|^4.0|^5.0|^6.0|^7.0"
     },
     "require-dev": {
@@ -46,5 +46,11 @@
             "@composer install",
             "vendor/bin/phpunit"
         ]
-    }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:anysystems/yaml.git"
+        }
+    ]
 }
